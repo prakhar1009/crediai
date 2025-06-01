@@ -6,7 +6,7 @@ load_dotenv()
 
 # Configure the language model for all agents
 llm_config = {
-    "model": "gpt-4o-mini",  # Using a reliable GPT-4 model
+    "model": "gpt-4o-mini-2024-07-18",  # Using the working model from the test
     "temperature": 0.3,  # Lower temperature for more focused and deterministic outputs
     "max_tokens": 4000  # Increased token limit for better responses
 }
